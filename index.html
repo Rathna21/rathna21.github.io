@@ -302,6 +302,18 @@
                     <h3 class="section-subheading text-muted">A short summary about my education and work experience.</h3>
                 </div>
                 <ul class="timeline">
+                  <li class="timeline-inverted">
+                    <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/lpkf.jpeg" alt="" /></div>
+                    <div class="timeline-panel">
+                        <div class="timeline-heading">
+                            <h4>Apr 2021 - Present</h4>
+                            <h4 class="subheading" style="color: #fcbc1d;">LPKF Laser and Electronics AG | Germany</h4>
+                        </div>
+                        <div class="timeline-body"><p class="text-muted">My work here was to set-up an automated Machine Learning pipeline for 
+                          real-time IoT data. As a part of the ML pipeline, I also worked on deploying ML models as Web Services. Built 
+                          Power BI dashboards to present the KPIs and the results.</p></div>
+                    </div>
+                  </li>
                     <li>
                         <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/dive.jpg" alt="" /></div>
                         <div class="timeline-panel">
@@ -313,8 +325,8 @@
                               I was working with Dive and worked on different interesting machine learning projects.
                             I also had an opportunity to work on different Proof of Concept(POC). </p></div>
                         </div>
-
-                    <li class="timeline-inverted">
+                      </li>
+                      <li class="timeline-inverted">
                         <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/rosemann.jpg" alt="" /></div>
                         <div class="timeline-panel">
                             <div class="timeline-heading">
@@ -395,7 +407,12 @@
         <footer class="footer py-4" style="background: white;">
             <div class="container">
                 <div class="text-center">
-                    Copyright © Rathna Srinivas Murthy 2020
+                    Copyright © Rathna Srinivas Murthy <span id="year"> 
+                    <script>document.getElementById('year').appendChild(
+                      document.createTextNode(new Date().getFullYear())
+                      )
+                    </script>  
+                    </span>
 
                 </div>
             </div>
