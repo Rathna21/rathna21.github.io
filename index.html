@@ -126,25 +126,15 @@
         <h3 class="section-subheading text-muted">Some of my personal projects.</h3>
       </div>
       <div class="row">
-        <div class="col-lg-4 col-sm-6 mb-4">
-          <a class="portfolio-item" data-toggle="modal" href="#portfolioModal1">
-            <span class="caption">
-              <span class="caption-content">
-                <h4>Semantic Segmentation</h4>
-              </span>
-            </span>
-            <img class="img-fluid portfolio-img" src="assets/img/semseg.jpg" alt="" />
-          </a>
-        </div>
 
         <div class="col-lg-4 col-sm-6 mb-4">
-          <a class="portfolio-item" data-toggle="modal" href="#portfolioModal2">
+          <a class="portfolio-item" data-toggle="modal" href="#portfolioModal5">
             <span class="caption">
               <span class="caption-content">
-                <h4>Spam Classifier</h4>
+                <h4>NVIDIA Triton Inference Server</h4>
               </span>
             </span>
-            <img class="img-fluid portfolio-img" src="assets/img/spam.png" alt="" />
+            <img class="img-fluid portfolio-img" src="assets/img/triton.png" alt="" />
           </a>
         </div>
 
@@ -160,24 +150,24 @@
         </div>
 
         <div class="col-lg-4 col-sm-6 mb-4">
-          <a class="portfolio-item" data-toggle="modal" href="#portfolioModal4">
+          <a class="portfolio-item" data-toggle="modal" href="#portfolioModal9">
             <span class="caption">
               <span class="caption-content">
-                <h4>Sentimental Analysis</h4>
+                <h4>Data Pipeline</h4>
               </span>
             </span>
-            <img class="img-fluid portfolio-img" src="assets/img/sentiment1.jpg" alt="" />
+            <img class="img-fluid portfolio-img" src="assets/img/datapipeline.png" alt="" />
           </a>
         </div>
 
         <div class="col-lg-4 col-sm-6 mb-4">
-          <a class="portfolio-item" data-toggle="modal" href="#portfolioModal5">
+          <a class="portfolio-item" data-toggle="modal" href="#portfolioModal1">
             <span class="caption">
               <span class="caption-content">
-                <h4>NVIDIA Triton Inference Server</h4>
+                <h4>Semantic Segmentation</h4>
               </span>
             </span>
-            <img class="img-fluid portfolio-img" src="assets/img/triton.png" alt="" />
+            <img class="img-fluid portfolio-img" src="assets/img/semseg.jpg" alt="" />
           </a>
         </div>
 
@@ -213,6 +203,31 @@
             <img class="img-fluid portfolio-img" src="assets/img/car-sharing1.png" alt="" />
           </a>
         </div>
+
+        <div class="col-lg-4 col-sm-6 mb-4">
+          <a class="portfolio-item" data-toggle="modal" href="#portfolioModal2">
+            <span class="caption">
+              <span class="caption-content">
+                <h4>Spam Classifier</h4>
+              </span>
+            </span>
+            <img class="img-fluid portfolio-img" src="assets/img/spam.png" alt="" />
+          </a>
+        </div>
+
+
+
+        <div class="col-lg-4 col-sm-6 mb-4">
+          <a class="portfolio-item" data-toggle="modal" href="#portfolioModal4">
+            <span class="caption">
+              <span class="caption-content">
+                <h4>Sentimental Analysis</h4>
+              </span>
+            </span>
+            <img class="img-fluid portfolio-img" src="assets/img/sentiment1.jpg" alt="" />
+          </a>
+        </div>
+
 
         <!-- <div class="col-lg-4 col-sm-6 mb-4">
                             <a class="portfolio-item" data-toggle="modal" href="#portfolioModal9">
@@ -781,7 +796,6 @@
       </div>
     </div>
   </div>
-
   <!-- Modal 7 -->
   <div class="portfolio-modal modal fade" id="portfolioModal7" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-dialog">
@@ -821,7 +835,6 @@
       </div>
     </div>
   </div>
-
   <!-- Modal 8 -->
   <div class="portfolio-modal modal fade" id="portfolioModal8" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-dialog">
@@ -843,6 +856,57 @@
                   <b>View this project on GitHub: </b>
                   <a href="https://github.com/Rathna21/Car-Sharing-Cpp"
                     target="blank">https://github.com/Rathna21/Car-Sharing-Cpp</a>
+                </div>
+                <br><br><br>
+
+                <button class="btn btn-primary" data-dismiss="modal" type="button">
+                  <i class="fas fa-times mr-1"></i>
+                  Close Project
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Modal 9 -->
+  <div class="portfolio-modal modal fade" id="portfolioModal9" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <img src="assets/img/close-icon.svg" alt="Close modal" />
+        </div>
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-lg-10">
+              <div class="modal-body">
+                <!-- Project Details Go Here-->
+                <h2>Data Pipeline</h2>
+                <p class="item-intro text-muted">A simple ETL pipeline using Luigi.</p>
+                <p style="font-size:20px;"> This is a data/ETL pipeline for NYC Taxi Trip Record Data using Luigi
+                  to ingest data and calculate the rolling average for 45 days. </p>
+
+                <div class="container">
+
+                  <img class="img-fluid d-block mx-auto" src="assets/img/luigi4.png" alt="" />
+                </div>
+
+                <p style="font-size:20px;"> <b>DATASET: </b> The yellow and green taxi trip records in NYC Taxi Trip
+                  Record Data include fields capturing
+                  pick-up and drop-off dates/times, pick-up and drop-off locations, trip distances, itemized fares, rate
+                  types,
+                  payment types, and driver-reported passenger counts.
+
+                </p>
+
+                <p style="font-size:20px;"><b>Languages and Libraries: </b>Python, Luigi, Pandas, SQLAlchemy and pytest
+                </p>
+
+                <div class="container" style="font-size:20px;">
+                  <b>View this project on GitHub: </b>
+                  <a href="https://github.com/Rathna21/nyc-taxi-trip-data-pipeline"
+                    target="blank">https://github.com/Rathna21/nyc-taxi-trip-data-pipeline</a>
                 </div>
                 <br><br><br>
 
